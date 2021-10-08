@@ -11,7 +11,7 @@ class HomePage:
 
     def shop_item(self):
         return self.driver.find_element(*HomePage.shop) # * to treat the variable as a tuple and deserialize
-        #   driver.find_element(By.CSS_SELECTOR, "//a[text()='Shop']")
+
 
 
 
