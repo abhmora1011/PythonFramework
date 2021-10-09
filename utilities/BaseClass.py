@@ -11,11 +11,11 @@ from selenium.webdriver.support import expected_conditions as EC
 @pytest.mark.usefixtures("setup")
 class BaseClass:
 
-    # To create a log file of every execution (This is important)
+    # To create a logs (This is important)
     def getLogger(self):
         logger_name = inspect.stack()[1][3]
         logger = logging.getLogger(logger_name)
-        file_handler = logging.FileHandler('logfile.log')
+        file_handler = logging.FileHandler('../utilities/logfile.log')
         formatter = logging.Formatter("%(asctime)s : %(levelname)s : %(name)s : %(message)s")
 
         file_handler.setFormatter(formatter)

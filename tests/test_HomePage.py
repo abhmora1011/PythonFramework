@@ -32,7 +32,7 @@ class Test_HomePage(BaseClass):
 
         message = homePage.success_text().text
 
-        assert "Success" in message
+        assert "Successssss" in message
 
         self.driver.refresh()
 

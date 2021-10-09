@@ -1,0 +1,26 @@
+2021-10-09 14:53:48,929 : INFO : test_formSubmission : Entering Data in the form
+2021-10-09 14:53:49,272 : INFO : test_formSubmission : Clicking the submit button
+2021-10-09 14:53:49,570 : INFO : test_formSubmission : Entering Data in the form
+2021-10-09 14:53:49,570 : INFO : test_formSubmission : Entering Data in the form
+2021-10-09 14:53:49,865 : INFO : test_formSubmission : Clicking the submit button
+2021-10-09 14:53:49,865 : INFO : test_formSubmission : Clicking the submit button
+2021-10-09 14:53:54,787 : INFO : test_e2e : Getting all the card titles
+2021-10-09 14:53:54,831 : INFO : test_e2e : iphone X
+2021-10-09 14:53:54,851 : INFO : test_e2e : Samsung Note 8
+2021-10-09 14:53:54,871 : INFO : test_e2e : Nokia Edge
+2021-10-09 14:53:54,890 : INFO : test_e2e : Blackberry
+2021-10-09 14:53:55,296 : INFO : test_e2e : Entering country name
+2021-10-09 14:54:00,674 : INFO : test_e2e : A success text received
+2021-10-09 15:08:01,011 : INFO : test_formSubmission : Entering Data in the form
+2021-10-09 15:08:01,356 : INFO : test_formSubmission : Clicking the submit button
+2021-10-09 15:08:01,761 : INFO : test_formSubmission : Entering Data in the form
+2021-10-09 15:08:01,761 : INFO : test_formSubmission : Entering Data in the form
+2021-10-09 15:08:02,011 : INFO : test_formSubmission : Clicking the submit button
+2021-10-09 15:08:02,011 : INFO : test_formSubmission : Clicking the submit button
+2021-10-09 15:08:07,009 : INFO : test_e2e : Getting all the card titles
+2021-10-09 15:08:07,053 : INFO : test_e2e : iphone X
+2021-10-09 15:08:07,073 : INFO : test_e2e : Samsung Note 8
+2021-10-09 15:08:07,093 : INFO : test_e2e : Nokia Edge
+2021-10-09 15:08:07,113 : INFO : test_e2e : Blackberry
+2021-10-09 15:08:07,546 : INFO : test_e2e : Entering country name
+2021-10-09 15:08:12,927 : INFO : test_e2e : A success text received
