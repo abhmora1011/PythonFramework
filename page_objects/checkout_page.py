@@ -20,3 +20,4 @@ class CheckOut:
     def checkout_button(self):
         return self.driver.find_element(*CheckOut.checkout)
 
+

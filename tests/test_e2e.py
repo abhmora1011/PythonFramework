@@ -4,8 +4,7 @@ from selenium.webdriver import ActionChains
 
 # Pulling of Objects from Class
 
-
-from page_objects.checkout_page import CheckOut
+from page_objects.checkout_page import CheckOut # omitted
 from page_objects.confirm_page import ConfirmPage
 from page_objects.delivery_location import DeliveryLocation
 from page_objects.homepage import HomePage
@@ -17,9 +16,8 @@ class TestEndToEnd(BaseClass):
     def test_e2e(self):
 
         homePage = HomePage(self.driver)
-        homePage.shop_item().click()
+        checkOut = homePage.shop_item()
 
-        checkOut = CheckOut(self.driver)
         confirmCart = ConfirmPage(self.driver)
         locationDelivery = DeliveryLocation(self.driver)
 
@@ -33,15 +31,11 @@ class TestEndToEnd(BaseClass):
             i = i + 1
             if product.text == "Blackberry":
                 product_button[i].click()
-                # print("Blackberry")
             add_to_cart_item.append(product.text)
 
         action = ActionChains(self.driver)
 
-        try:
-            action.move_to_element(checkout).click().perform()
-        except:
-            print("Not clicked")
+        action.move_to_element(checkout).click().perform()
 
         list_cart = confirmCart.cart_list()
 
@@ -59,7 +53,7 @@ class TestEndToEnd(BaseClass):
 
         location.send_keys("Ind")
 
-        locationDelivery.verifyLinkPresence("India").click()
+        self.verifyLinkPresence("India").click() # Custom Utilities declared in BaseClass
 
         locationDelivery.agree_checkbox().click()
 
