@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+    <testsuite name="pytest" errors="0" failures="0" skipped="0" tests="3" time="16.113"
+               timestamp="2021-10-09T17:36:31.001010" hostname="Abes-MacBook-Pro.local">
+        <testcase classname="test_HomePage.Test_HomePage" name="test_formSubmission[get_data0]" time="4.532"/>
+        <testcase classname="test_HomePage.Test_HomePage" name="test_formSubmission[get_data1]" time="0.902"/>
+        <testcase classname="test_e2e.TestEndToEnd" name="test_e2e" time="10.611"/>
+    </testsuite>
+</testsuites>

@@ -3,10 +3,15 @@ from selenium import webdriver
 
 driver = None # initialize a driver for screenshot plugin
 
+
 #   Adding hook for command line fetching
 def pytest_addoption(parser):
     parser.addoption(
         "--browser_name", action="store", default="chrome"
+    )
+
+    parser.addoption(
+        "--url", action="store", default="dev"
     )
 
 
@@ -19,7 +24,12 @@ def setup(request):
     elif browser == "firefox":
         driver = webdriver.Firefox(executable_path="../drivers/geckodriver")
 
-    driver.get("https://rahulshettyacademy.com/angularpractice/")
+    url = request.config.getoption("url")
+    if url == "dev":
+        driver.get("https://rahulshettyacademy.com/angularpractice/")
+    elif url == "staging":
+        driver.get("https://www.google.com")
+
     driver.maximize_window()
     request.cls.driver = driver # cls.driver (Class level "to access this user self keyword") = driver (local driver)
     yield
