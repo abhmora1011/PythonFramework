@@ -13,9 +13,9 @@ def pytest_addoption(parser):
 def setup(request):
     browser = request.config.getoption("browser_name")  # to read the browser name in command line
     if browser == "chrome":
-        driver = webdriver.Chrome(executable_path="../chromedriver")
+        driver = webdriver.Chrome(executable_path="../drivers/chromedriver")
     elif browser == "firefox":
-        driver = webdriver.Firefox(executable_path="../geckodriver")
+        driver = webdriver.Firefox(executable_path="../drivers/geckodriver")
 
     driver.get("https://rahulshettyacademy.com/angularpractice/")
     driver.maximize_window()
