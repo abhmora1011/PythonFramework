@@ -14,10 +14,10 @@ from utilities.BaseClass import BaseClass
 class TestEndToEnd(BaseClass):
 
     def test_e2e(self):
-
+        log = self.getLogger()
         homePage = HomePage(self.driver)
         checkOut = homePage.shop_item()
-
+        log.info("Getting all the card titles")
         confirmCart = ConfirmPage(self.driver)
         locationDelivery = DeliveryLocation(self.driver)
 
@@ -29,6 +29,7 @@ class TestEndToEnd(BaseClass):
         i = -1
         for product in product_titles:
             i = i + 1
+            log.info(product.text)
             if product.text == "Blackberry":
                 product_button[i].click()
             add_to_cart_item.append(product.text)
@@ -51,6 +52,8 @@ class TestEndToEnd(BaseClass):
 
         location = locationDelivery.location_box()
 
+        log.info("Entering country name")
+
         location.send_keys("Ind")
 
         self.verifyLinkPresence("India").click() # Custom Utilities declared in BaseClass
@@ -60,5 +63,7 @@ class TestEndToEnd(BaseClass):
         locationDelivery.submit_button().click()
 
         message = locationDelivery.verifySuccessMessage().text
+
+        log.info("A success text received")
 
         assert "Success! Thank you!" in message

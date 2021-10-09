@@ -9,7 +9,12 @@ from test_data.data_bank import TestData
 class Test_HomePage(BaseClass):
 
     def test_formSubmission(self, get_data):
+
+        log = self.getLogger()
+
         homePage = HomePage(self.driver)
+
+        log.info("Entering Data in the form")
 
         homePage.name_field().send_keys(get_data["fullname"])
 
@@ -21,6 +26,7 @@ class Test_HomePage(BaseClass):
 
         homePage.check_ice_cream().click()
 
+        log.info("Clicking the submit button")
         #self.click_element_by_locator(homePage.submit)
         homePage.submit_button().click()
 
