@@ -36,6 +36,6 @@ class Test_HomePage(BaseClass):
 
         self.driver.refresh()
 
-    @pytest.fixture(params=HomePageData.test_homepage_data)
+    @pytest.fixture(params=HomePageData.getTestData("Testcase1"))
     def get_data(self, request):
         return request.param
