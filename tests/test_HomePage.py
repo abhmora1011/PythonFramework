@@ -32,10 +32,10 @@ class Test_HomePage(BaseClass):
 
         message = homePage.success_text().text
 
-        assert "Success" in message
+        assert "Successsss" in message
 
         self.driver.refresh()
 
-    @pytest.fixture(params=HomePageData.getTestData("Testcase1"))
+    @pytest.fixture(params=HomePageData.test_homepage_data)
     def get_data(self, request):
         return request.param

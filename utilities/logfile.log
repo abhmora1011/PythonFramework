@@ -218,3 +218,77 @@
 2021-10-10 10:31:21,089 : INFO : test_formSubmission : Clicking the submit button
 2021-10-10 10:32:17,767 : INFO : test_formSubmission : Entering Data in the form
 2021-10-10 10:32:18,093 : INFO : test_formSubmission : Clicking the submit button
+2021-10-10 13:07:16,819 : INFO : test_formSubmission : Entering Data in the form
+2021-10-10 13:07:17,211 : INFO : test_formSubmission : Clicking the submit button
+2021-10-10 13:07:43,434 : INFO : test_formSubmission : Entering Data in the form
+2021-10-10 13:07:43,766 : INFO : test_formSubmission : Clicking the submit button
+2021-10-10 13:07:48,897 : INFO : test_formSubmission : Entering Data in the form
+2021-10-10 13:07:49,252 : INFO : test_formSubmission : Clicking the submit button
+2021-10-10 13:09:49,937 : INFO : test_formSubmission : Entering Data in the form
+2021-10-10 13:09:50,287 : INFO : test_formSubmission : Clicking the submit button
+2021-10-10 13:10:14,499 : INFO : test_formSubmission : Entering Data in the form
+2021-10-10 13:10:14,867 : INFO : test_formSubmission : Clicking the submit button
+2021-10-10 13:42:47,227 : INFO : test_formSubmission : Entering Data in the form
+2021-10-10 13:42:47,622 : INFO : test_formSubmission : Clicking the submit button
+2021-10-10 14:12:20,023 : INFO : test_formSubmission : Entering Data in the form
+2021-10-10 14:12:20,394 : INFO : test_formSubmission : Clicking the submit button
+2021-10-10 14:12:20,870 : INFO : test_formSubmission : Entering Data in the form
+2021-10-10 14:12:20,870 : INFO : test_formSubmission : Entering Data in the form
+2021-10-10 14:12:21,266 : INFO : test_formSubmission : Clicking the submit button
+2021-10-10 14:12:21,266 : INFO : test_formSubmission : Clicking the submit button
+2021-10-10 14:13:02,402 : INFO : test_formSubmission : Entering Data in the form
+2021-10-10 14:13:02,742 : INFO : test_formSubmission : Clicking the submit button
+2021-10-10 14:13:03,160 : INFO : test_formSubmission : Entering Data in the form
+2021-10-10 14:13:03,160 : INFO : test_formSubmission : Entering Data in the form
+2021-10-10 14:13:03,452 : INFO : test_formSubmission : Clicking the submit button
+2021-10-10 14:13:03,452 : INFO : test_formSubmission : Clicking the submit button
+2021-10-10 14:13:39,816 : INFO : test_formSubmission : Entering Data in the form
+2021-10-10 14:13:40,181 : INFO : test_formSubmission : Clicking the submit button
+2021-10-10 14:13:40,625 : INFO : test_formSubmission : Entering Data in the form
+2021-10-10 14:13:40,625 : INFO : test_formSubmission : Entering Data in the form
+2021-10-10 14:13:40,919 : INFO : test_formSubmission : Clicking the submit button
+2021-10-10 14:13:40,919 : INFO : test_formSubmission : Clicking the submit button
+2021-10-10 14:14:06,197 : INFO : test_formSubmission : Entering Data in the form
+2021-10-10 14:14:06,530 : INFO : test_formSubmission : Clicking the submit button
+2021-10-10 14:14:06,936 : INFO : test_formSubmission : Entering Data in the form
+2021-10-10 14:14:06,936 : INFO : test_formSubmission : Entering Data in the form
+2021-10-10 14:14:07,244 : INFO : test_formSubmission : Clicking the submit button
+2021-10-10 14:14:07,244 : INFO : test_formSubmission : Clicking the submit button
+2021-10-10 14:14:41,840 : INFO : test_formSubmission : Entering Data in the form
+2021-10-10 14:14:42,169 : INFO : test_formSubmission : Clicking the submit button
+2021-10-10 14:14:42,474 : INFO : test_formSubmission : Entering Data in the form
+2021-10-10 14:14:42,474 : INFO : test_formSubmission : Entering Data in the form
+2021-10-10 14:14:42,798 : INFO : test_formSubmission : Clicking the submit button
+2021-10-10 14:14:42,798 : INFO : test_formSubmission : Clicking the submit button
+2021-10-10 14:35:16,150 : INFO : test_formSubmission : Entering Data in the form
+2021-10-10 14:35:16,571 : INFO : test_formSubmission : Clicking the submit button
+2021-10-10 14:35:17,030 : INFO : test_formSubmission : Entering Data in the form
+2021-10-10 14:35:17,030 : INFO : test_formSubmission : Entering Data in the form
+2021-10-10 14:35:17,377 : INFO : test_formSubmission : Clicking the submit button
+2021-10-10 14:35:17,377 : INFO : test_formSubmission : Clicking the submit button
+2021-10-10 14:35:23,813 : INFO : test_e2e : Getting all the card titles
+2021-10-10 14:35:23,856 : INFO : test_e2e : iphone X
+2021-10-10 14:35:23,877 : INFO : test_e2e : Samsung Note 8
+2021-10-10 14:35:23,897 : INFO : test_e2e : Nokia Edge
+2021-10-10 14:35:23,918 : INFO : test_e2e : Blackberry
+2021-10-10 14:35:24,348 : INFO : test_e2e : Entering country name
+2021-10-10 14:35:29,755 : INFO : test_e2e : A success text received
+2021-10-10 14:40:39,198 : INFO : test_formSubmission : Entering Data in the form
+2021-10-10 14:40:39,539 : INFO : test_formSubmission : Clicking the submit button
+2021-10-10 14:40:39,960 : INFO : test_formSubmission : Entering Data in the form
+2021-10-10 14:40:39,960 : INFO : test_formSubmission : Entering Data in the form
+2021-10-10 14:40:40,258 : INFO : test_formSubmission : Clicking the submit button
+2021-10-10 14:40:40,258 : INFO : test_formSubmission : Clicking the submit button
+2021-10-10 14:47:18,324 : INFO : test_formSubmission : Entering Data in the form
+2021-10-10 14:47:18,650 : INFO : test_formSubmission : Clicking the submit button
+2021-10-10 14:47:19,042 : INFO : test_formSubmission : Entering Data in the form
+2021-10-10 14:47:19,042 : INFO : test_formSubmission : Entering Data in the form
+2021-10-10 14:47:19,394 : INFO : test_formSubmission : Clicking the submit button
+2021-10-10 14:47:19,394 : INFO : test_formSubmission : Clicking the submit button
+2021-10-10 14:47:26,877 : INFO : test_e2e : Getting all the card titles
+2021-10-10 14:47:26,926 : INFO : test_e2e : iphone X
+2021-10-10 14:47:26,953 : INFO : test_e2e : Samsung Note 8
+2021-10-10 14:47:26,982 : INFO : test_e2e : Nokia Edge
+2021-10-10 14:47:27,004 : INFO : test_e2e : Blackberry
+2021-10-10 14:47:27,425 : INFO : test_e2e : Entering country name
+2021-10-10 14:47:32,825 : INFO : test_e2e : A success text received

@@ -243,7 +243,7 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
 }
 </script>
     <h1>report.html</h1>
-    <p>Report generated on 09-Oct-2021 at 15:08:13 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.1.1</p>
+    <p>Report generated on 10-Oct-2021 at 14:47:32 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.1.1</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -259,7 +259,7 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
         <td>Python</td>
         <td>3.9.7</td></tr></table>
     <h2>Summary</h2>
-    <p>3 tests ran in 16.34 seconds. </p>
+    <p>3 tests ran in 18.96 seconds. </p>
     <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">1 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">2 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
@@ -275,36 +275,28 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
         <tr>
           <td class="col-result">Failed</td>
           <td class="col-name">test_HomePage.py::Test_HomePage::test_formSubmission[get_data0]</td>
-          <td class="col-duration">4.72</td>
+          <td class="col-duration">4.59</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
             <div><div><img src="test_HomePage.py_Test_HomePage_test_formSubmission[get_data0].png" alt="screenshot" style="width:304px;height:228px;" onclick="window.open(this.src)" align="right"/></div></div>
-            <div class="log">self = &lt;tests.test_HomePage.Test_HomePage object at 0x7fdb3e0d4400&gt;<br/>get_data = {&#x27;email&#x27;: &#x27;abraham.morial.ora@gmail.com&#x27;, &#x27;fullname&#x27;: &#x27;Abraham Ora&#x27;, &#x27;gender&#x27;: &#x27;Male&#x27;}<br/><br/>    def test_formSubmission(self, get_data):<br/>    <br/>        log = self.getLogger()<br/>    <br/>        homePage = HomePage(self.driver)<br/>    <br/>        log.info(&quot;Entering Data in the form&quot;)<br/>    <br/>        homePage.name_field().send_keys(get_data[&quot;fullname&quot;])<br/>    <br/>        homePage.email_field().send_keys(get_data[&quot;email&quot;])<br/>    <br/>        homePage.password_field().send_keys(TestData.PASSWORD)<br/>    <br/>        self.selectOptionByText(homePage.gender_field(), get_data[&quot;gender&quot;])<br/>    <br/>        homePage.check_ice_cream().click()<br/>    <br/>        log.info(&quot;Clicking the submit button&quot;)<br/>        #self.click_element_by_locator(homePage.submit)<br/>        homePage.submit_button().click()<br/>    <br/>        message = homePage.success_text().text<br/>    <br/>&gt;       assert &quot;Successssss&quot; in message<br/><span class="error">E       AssertionError: assert &#x27;Successssss&#x27; in &#x27;×\nSuccess! The Form has been submitted successfully!.&#x27;</span><br/><br/>test_HomePage.py:35: AssertionError<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     test_formSubmission:test_HomePage.py:17 Entering Data in the form
-INFO     test_formSubmission:test_HomePage.py:29 Clicking the submit button<br/></div></td></tr></tbody>
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
       <tbody class="failed results-table-row">
         <tr>
           <td class="col-result">Failed</td>
           <td class="col-name">test_HomePage.py::Test_HomePage::test_formSubmission[get_data1]</td>
-          <td class="col-duration">0.36</td>
+          <td class="col-duration">0.47</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
             <div><div><img src="test_HomePage.py_Test_HomePage_test_formSubmission[get_data1].png" alt="screenshot" style="width:304px;height:228px;" onclick="window.open(this.src)" align="right"/></div></div>
-            <div class="log">self = &lt;tests.test_HomePage.Test_HomePage object at 0x7fdb3e1cdd00&gt;<br/>get_data = {&#x27;email&#x27;: &#x27;clarisse.licuanan.ora@gmail.com&#x27;, &#x27;fullname&#x27;: &#x27;Clarisse Ora&#x27;, &#x27;gender&#x27;: &#x27;Female&#x27;}<br/><br/>    def test_formSubmission(self, get_data):<br/>    <br/>        log = self.getLogger()<br/>    <br/>        homePage = HomePage(self.driver)<br/>    <br/>        log.info(&quot;Entering Data in the form&quot;)<br/>    <br/>        homePage.name_field().send_keys(get_data[&quot;fullname&quot;])<br/>    <br/>        homePage.email_field().send_keys(get_data[&quot;email&quot;])<br/>    <br/>        homePage.password_field().send_keys(TestData.PASSWORD)<br/>    <br/>        self.selectOptionByText(homePage.gender_field(), get_data[&quot;gender&quot;])<br/>    <br/>        homePage.check_ice_cream().click()<br/>    <br/>        log.info(&quot;Clicking the submit button&quot;)<br/>        #self.click_element_by_locator(homePage.submit)<br/>        homePage.submit_button().click()<br/>    <br/>        message = homePage.success_text().text<br/>    <br/>&gt;       assert &quot;Successssss&quot; in message<br/><span class="error">E       AssertionError: assert &#x27;Successssss&#x27; in &#x27;×\nSuccess! The Form has been submitted successfully!.&#x27;</span><br/><br/>test_HomePage.py:35: AssertionError<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     test_formSubmission:test_HomePage.py:17 Entering Data in the form
-INFO     test_formSubmission:test_HomePage.py:29 Clicking the submit button<br/></div></td></tr></tbody>
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">test_e2e.py::TestEndToEnd::test_e2e</td>
-          <td class="col-duration">10.63</td>
+          <td class="col-duration">13.13</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     test_e2e:test_e2e.py:20 Getting all the card titles
-INFO     test_e2e:test_e2e.py:32 iphone X
-INFO     test_e2e:test_e2e.py:32 Samsung Note 8
-INFO     test_e2e:test_e2e.py:32 Nokia Edge
-INFO     test_e2e:test_e2e.py:32 Blackberry
-INFO     test_e2e:test_e2e.py:55 Entering country name
-INFO     test_e2e:test_e2e.py:67 A success text received<br/></div></td></tr></tbody></table></body></html>
+            <div class="empty log">No log output captured.</div></td></tr></tbody></table></body></html>
